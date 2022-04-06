@@ -1,0 +1,30 @@
+{
+  "name": "scli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "scli": "./index.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest --silent --coverage -c jest.config.js",
+    "lint": "./node_modules/.bin/eslint ./lib ./tests ./*.js -f table"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.7.1",
+    "chalk": "4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "minimist": "^1.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-formatter-table": "^7.32.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^27.5.1",
+    "jest-html-reporter": "^3.4.2"
+  }
+}
