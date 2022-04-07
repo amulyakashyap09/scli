@@ -11,6 +11,7 @@ use of Slack APIs - (Refer to https://api.slack.com/methods)
 - jest-html-reporter - for code coverage
 
 ## Installation
+- Clone the Repo `https://github.com/amulyakashyap09/scli.git`
 - Run Command `sudo npm install -g`
 > Please enter the password to install the CLI gloablly
 
