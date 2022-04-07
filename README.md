@@ -18,6 +18,18 @@ use of Slack APIs - (Refer to https://api.slack.com/methods)
 - Run Command `sudo npm install -g`
 > Please enter the password to install the CLI gloablly
 
+## How to get new Token
+- We need `Bot User OAuth Token`
+- Go `api.slack.com`
+- Go to your slack app
+- Go to `OAuth & Permissions`
+- In section `OAuth Tokens for Your Workspace`
+  - You will find `Bot User OAuth Token`
+  - Copy it and use it .env file
+- To generate new token
+  - Click `Reinstall to workspace`
+- ![This is an image](https://github.com/amulyakashyap09/scli/blob/main/screenshots/slack_auth_token.png)
+
 ## Authentication
 - Oauth Tokens have been used for authentication
 - We have slack's auth.test method to check if token is valid or not.
