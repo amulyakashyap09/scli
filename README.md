@@ -13,7 +13,8 @@ use of Slack APIs - (Refer to https://api.slack.com/methods)
 ## Installation
 - Clone the Repo `https://github.com/amulyakashyap09/scli.git`
 - `cd scli`
-- SET SLACK_TOKEN to your .env file `SLACK_TOKEN=YOUR_TOKEN`
+- create `.env` file in your root folder
+- Add SLACK_TOKEN to your .env file `SLACK_TOKEN=YOUR_TOKEN`
 - Run Command `sudo npm install -g`
 > Please enter the password to install the CLI gloablly
 
