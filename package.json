@@ -14,6 +14,7 @@
     "@slack/web-api": "^6.7.1",
     "chalk": "4.1.2",
     "clear": "^0.1.0",
+    "dotenv": "^16.0.0",
     "figlet": "^1.5.2",
     "minimist": "^1.2.6"
   },

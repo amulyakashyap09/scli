@@ -1,9 +1,11 @@
 const lib = require('../../lib/functions');
 const errors = require('../../lib/errors');
-
 const token = process.env.SLACK_TOKEN;
 
+
 describe('Testing lib functions', () => {
+	
+
 	it('should return help commands from help function', () => {
 		const actual = lib.helpCommands();
 		const expected = '1. list-chan - lists all channels\n2. send - sends message to a channel\n3. list-conv - lists all conversations from a channel\n4. help - displays supported commands of scli\n5. version - displays version of this scli\n6. explain - explain commands syntax';
