@@ -12,6 +12,8 @@ use of Slack APIs - (Refer to https://api.slack.com/methods)
 
 ## Installation
 - Clone the Repo `https://github.com/amulyakashyap09/scli.git`
+- `cd scli`
+- SET SLACK_TOKEN to your .env file `SLACK_TOKEN=YOUR_TOKEN`
 - Run Command `sudo npm install -g`
 > Please enter the password to install the CLI gloablly
 
@@ -19,13 +21,16 @@ use of Slack APIs - (Refer to https://api.slack.com/methods)
 - Oauth Tokens have been used for authentication
 - We have slack's auth.test method to check if token is valid or not.
 - Oauth Token expires in 1 day
+
+## Cautious
+- Slack due to security issues 'INVALIDATES TOKEN' if
+- there are bulk request from that token
 - If expires, please follow the steps:
-  - Create a new slack app
   - Go To your app dashboard in api.slack.com
   - Go to Oauth&Permissions Tab
-  - Generate New Bot Token
+  - Go To OAuth Tokens for Your Workspace
+  - Generate New Bot Token / ReInstall to Workspace
   - Give Your App OAuth Access
-  - Add your app to the channel you wish to interact
 
 ## Usage
 1. SET SLACK_TOKEN to your .env file `SLACK_TOKEN=YOUR_TOKEN`.
